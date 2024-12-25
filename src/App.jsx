@@ -5,7 +5,7 @@ import HowToPlay from './components/HowToPlay';
 import { useState } from 'react';
 
 const App = () => {
-  const [howToModalShown, setHowToModalShown] = useState(true)
+  const [howToModalShown, setHowToModalShown] = useState(false)
 
   function toggleHowToModal() {
     setHowToModalShown(prev => !prev)
