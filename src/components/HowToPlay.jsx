@@ -4,7 +4,7 @@ export default function HowToPlay({ howToModalShown, toggleHowToModal }) {
     return (
         <>
             {howToModalShown && (
-                <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+                <div className="howtoplay fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
                     <div className="rounded-lg px-8 py-6 w-5/6 max-w-xl text-left bg-light-secondaryBackground dark:bg-dark-secondaryBackground">
                         <h2 className="text-2xl font-bold mb-4">How to Play</h2>
                         <h2>Welcome to Assembly Endgame! 🎮</h2>
